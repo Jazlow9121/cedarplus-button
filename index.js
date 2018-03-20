@@ -7,15 +7,14 @@ const propTypes = {
 	btnTitleStyle: PropTypes.object,
 	onPress: PropTypes.func,
 	disabled: PropTypes.bool,
-	footer: PropTypes.bool,
-	color: PropTypes.string
+	footer: PropTypes.bool
 };
 
 const defaultProps = {
 	btnStyle: {
 		alignSelf: 'stretch',
 		borderColor: 'black',
-		backgroundColor: 'black',
+		backgroundColor: 'white',
 		elevation: 3,
 		shadowOpacity: 0.3,
 		shadowRadius: 5
@@ -23,14 +22,13 @@ const defaultProps = {
 	btnTitleStyle: {
 		fontSize: 15,
 		textAlign: 'center',
-		color: 'white',
+		color: 'black',
 		margin: 15,
 		fontWeight: 'bold'
 	},
 	onPress: undefined,
 	disabled: false,
-	footer: false,
-	color: 'black'
+	footer: false
 };
 
 export default function Button({
