@@ -31,6 +31,8 @@ const defaultProps = {
 	footer: false
 };
 
+// Jaz
+
 export default function Button({
 	title,
 	btnStyle,
